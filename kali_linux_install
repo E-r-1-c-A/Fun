@@ -26,7 +26,7 @@ sudo vim /etc/network/interfaces
      gateway -預設閘道-
 
 
-# Note : when you install python2 pip was worong
+# Note : when you try to install python2 pip, but it happend error
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 pip install --upgrade pip -vvv
