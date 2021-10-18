@@ -10,14 +10,8 @@ Video -> https://www.bilibili.com/video/BV1at4y1S76Q/
 https://blog.csdn.net/weixin_46017292/article/details/116189713
 
 
-# CHINESE INTERFACE
-way1 -> 	1. dpkg-reconfigure locales
-	        2. choose zh_CN.UTF-8
-	        3. del en_US.UTF-8
-        	4. reboot 
-	        5. apt-get update
-
-way2 (recommend) -> https://hack543.com/kali-linux-2021-tradictional-chinese-env/
+# CHINESE KEYBOARD 
+https://hack543.com/kali-linux-2021-tradictional-chinese-env/
 
 
 # 連接外網
