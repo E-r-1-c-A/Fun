@@ -1,0 +1,39 @@
+# KALI LINUX 2921 version
+
+
+# HOW TO INSTALL 
+Artical -> https://blog.csdn.net/Ilson_/article/details/117377909
+Video -> https://www.bilibili.com/video/BV1at4y1S76Q/
+
+
+# REPLACE KALI MIRROR SOURCES.LIST
+https://blog.csdn.net/weixin_46017292/article/details/116189713
+
+
+# CHINESE INTERFACE
+way1 -> 	1. dpkg-reconfigure locales
+	        2. choose zh_CN.UTF-8
+	        3. del en_US.UTF-8
+        	4. reboot 
+	        5. apt-get update
+
+way2 (recommend) -> https://hack543.com/kali-linux-2021-tradictional-chinese-env/
+
+
+# 連接外網
+機器網路設定: 橋接介面卡
+透過本機 CMD 查詢 ipconfig -> 得到IPv4位址(address)、子網路遮罩(netmask)、預設閘道(gateway)
+sudo vim /etc/network/interfaces
+添加 auto eth0
+ ==> iface eth0 inet dhcp
+     iface eth0 inet static
+     address -IPv4位址-
+     netmask -子網路遮罩-
+     gateway -預設閘道-
+
+
+# Note : when you install python2 pip was worong
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+sudo python2 get-pip.py
+pip install --upgrade pip -vvv
+python -m pip install --upgrade setuptools 
