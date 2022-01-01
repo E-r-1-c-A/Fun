@@ -12,7 +12,8 @@ https://blog.csdn.net/weixin_46017292/article/details/116189713
 
 # CHINESE KEYBOARD 
 https://hack543.com/kali-linux-2021-tradictional-chinese-env/
-
+> sudo apt install fonts-arphic-uming fonts-noto-cjk
+> sudo apt install fcitx5 fcitx5-chewing im-config 
 
 # 連接外網
 機器網路設定: 橋接介面卡
