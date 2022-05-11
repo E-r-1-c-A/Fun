@@ -12,6 +12,8 @@ VirtualBox:
   Video -> https://www.bilibili.com/video/BV1at4y1S76Q/
 VMware Workstation Pro:
   Artical -> https://thesecmaster.com/install-kali-linux-on-vmware-workstation/
+  掛載 VMware Tools 教學 ( 其他設定優先參考上面 ):
+  Artical -> https://www.796t.com/content/1541894589.html
 
 
 # REPLACE KALI MIRROR SOURCES.LIST
