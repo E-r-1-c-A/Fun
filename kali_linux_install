@@ -1,9 +1,17 @@
-# KALI LINUX 2921 version
+# KALI LINUX INSTALL
 
+# Suggestion
+RAM: 4 GB up
+Core: 2 * 2 up
+Hard Disk: 50 GB, single disk
+不要開啟 3D 加速
 
-# HOW TO INSTALL 
-Artical -> https://blog.csdn.net/Ilson_/article/details/117377909
-Video -> https://www.bilibili.com/video/BV1at4y1S76Q/
+# HOW TO INSTALL
+VirtualBox:
+  Artical -> https://blog.csdn.net/Ilson_/article/details/117377909
+  Video -> https://www.bilibili.com/video/BV1at4y1S76Q/
+VMware Workstation Pro:
+  Artical -> https://thesecmaster.com/install-kali-linux-on-vmware-workstation/
 
 
 # REPLACE KALI MIRROR SOURCES.LIST
