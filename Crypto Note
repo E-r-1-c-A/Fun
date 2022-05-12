@@ -1,0 +1,4 @@
+# RSA
+from Crypto.Util.number import inverse
+inverse(n, m) >> x
+-> n * x = 1 ( mod m )
