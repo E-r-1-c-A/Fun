@@ -19,6 +19,9 @@ VMware Workstation Pro:
 # REPLACE KALI MIRROR SOURCES.LIST
 https://blog.csdn.net/weixin_46017292/article/details/116189713
 
+# sudo apt update && sudo apt upgrade
+!!! 千萬不要用 apt autoremove !!! 新手別用，特別坑 !!!
+
 
 # CHINESE KEYBOARD 
 https://hack543.com/kali-linux-2021-tradictional-chinese-env/
