@@ -41,3 +41,6 @@ curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 pip install --upgrade pip -vvv
 python -m pip install --upgrade setuptools 
+
+## rtl8188eu error !!!
+## https://blog.csdn.net/rainysia/article/details/17484537
